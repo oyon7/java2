@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Lab1Task11{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter number");
+        int num= sc.nextInt();
+        int k=0;
+        for(int line=1; line<=num; line++){
+            for(int n=1; n<=num-line; n++){
+                System.out.print(" ");
+            }
+            
+            System.out.println();
+        }
+    }
+}

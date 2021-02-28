@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Lab1Task7{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter row");
+        int row= sc.nextInt();
+        System.out.println("Please enter column");
+        int col= sc.nextInt();
+        for(int n=1; n<=row; n++){
+            System.out.print(n);
+        }
+        for(int r=1; r<=row; r++){
+            System.out.print(n);
+        }

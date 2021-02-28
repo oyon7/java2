@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Lab1Task9{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter number");
+        int num= sc.nextInt(); 
+        for(int rowC=1; rowC<= num; rowC++){
+            for(int spaceC=1; spaceC<=num-1; spaceC++){
+                System.out.print(" ");
+            }
+            System.out.print(1);
+        }
+    }
+}
